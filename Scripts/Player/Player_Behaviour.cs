@@ -16,7 +16,8 @@ public class Player_Behaviour : MonoBehaviour {
     void PlayerMovement(){
         float hmove = Input.GetAxis("Horizontal");
         float vmove = Input.GetAxis("Vertical");
-        transform.Translate(new Vector3((hmove * speed * Time.deltaTime), (vmove * speed * Time.deltaTime), 0));
+        Vector3 moveDiff = new Vector3(hmove, vmove).normalized;
+        transform.position += moveDiff * speed * Time.deltaTime;
         rb.MovePosition(transform.position);
     }
 }
