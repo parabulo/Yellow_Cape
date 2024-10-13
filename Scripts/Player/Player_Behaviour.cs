@@ -19,6 +19,4 @@ public class Player_Behaviour : MonoBehaviour {
         transform.Translate(new Vector3((hmove * speed * Time.deltaTime), (vmove * speed * Time.deltaTime), 0));
         rb.MovePosition(transform.position);
     }
-
-    
 }
