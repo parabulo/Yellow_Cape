@@ -1,26 +1,23 @@
 fileFormatVersion: 2
-guid: 717896cbc21eb164d934ae3aa3f321d9
+guid: 50953349c7a343a4691e2be9b52065fa
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Player-Sheet_0
-    21300002: Player-Sheet_1
-    21300004: Player-Sheet_2
-    21300006: Player-Sheet_3
-    21300008: Player-Sheet_4
-    21300010: Player-Sheet_5
-    21300012: Player-Sheet_6
-    21300014: Player-Sheet_7
-    21300016: Player-Sheet_8
-    21300018: Player-Sheet_9
-    21300020: Player-Sheet_10
-    21300022: Player-Sheet_11
-    21300024: Player-Sheet_12
-    21300026: Player-Sheet_13
-    21300028: Player-Sheet_14
-    21300030: Player-Sheet_15
-    21300032: Player-Sheet_16
-    21300034: Player-Sheet_17
-    21300036: Player-Sheet_18
+    21300000: DebugTiles8x8_0
+    21300002: DebugTiles8x8_1
+    21300004: DebugTiles8x8_2
+    21300006: DebugTiles8x8_3
+    21300008: DebugTiles8x8_4
+    21300010: DebugTiles8x8_5
+    21300012: DebugTiles8x8_6
+    21300014: DebugTiles8x8_7
+    21300016: DebugTiles8x8_8
+    21300018: DebugTiles8x8_9
+    21300020: DebugTiles8x8_10
+    21300022: DebugTiles8x8_11
+    21300024: DebugTiles8x8_12
+    21300026: DebugTiles8x8_13
+    21300028: DebugTiles8x8_14
+    21300030: DebugTiles8x8_15
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -75,40 +72,40 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: Android
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
   - buildTarget: WebGL
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player-Sheet_0
+      name: DebugTiles8x8_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 100
-        width: 20
-        height: 20
+        y: 24
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,13 +129,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_1
+      name: DebugTiles8x8_1
       rect:
         serializedVersion: 2
-        x: 20
-        y: 100
-        width: 20
-        height: 20
+        x: 8
+        y: 24
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,13 +143,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_2
+      name: DebugTiles8x8_2
       rect:
         serializedVersion: 2
-        x: 40
-        y: 100
-        width: 20
-        height: 20
+        x: 16
+        y: 24
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,13 +157,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_3
+      name: DebugTiles8x8_3
       rect:
         serializedVersion: 2
-        x: 60
-        y: 100
-        width: 20
-        height: 20
+        x: 24
+        y: 24
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,27 +171,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 100
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Player-Sheet_5
+      name: DebugTiles8x8_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 80
-        width: 20
-        height: 20
+        y: 16
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,13 +185,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_6
+      name: DebugTiles8x8_5
       rect:
         serializedVersion: 2
-        x: 20
-        y: 80
-        width: 20
-        height: 20
+        x: 8
+        y: 16
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,13 +199,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_7
+      name: DebugTiles8x8_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 60
-        width: 20
-        height: 20
+        x: 16
+        y: 16
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,13 +213,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_8
+      name: DebugTiles8x8_7
       rect:
         serializedVersion: 2
-        x: 20
-        y: 60
-        width: 20
-        height: 20
+        x: 24
+        y: 16
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,55 +227,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 40
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Player-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 40
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Player-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 40
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Player-Sheet_12
+      name: DebugTiles8x8_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 20
-        width: 20
-        height: 20
+        y: 8
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,13 +241,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_13
+      name: DebugTiles8x8_9
       rect:
         serializedVersion: 2
-        x: 20
-        y: 20
-        width: 20
-        height: 20
+        x: 8
+        y: 8
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,13 +255,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_14
+      name: DebugTiles8x8_10
       rect:
         serializedVersion: 2
-        x: 40
-        y: 20
-        width: 20
-        height: 20
+        x: 16
+        y: 8
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,13 +269,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_15
+      name: DebugTiles8x8_11
       rect:
         serializedVersion: 2
-        x: 60
-        y: 20
-        width: 20
-        height: 20
+        x: 24
+        y: 8
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,27 +283,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 20
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Player-Sheet_17
+      name: DebugTiles8x8_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 20
-        height: 20
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,13 +297,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Player-Sheet_18
+      name: DebugTiles8x8_13
       rect:
         serializedVersion: 2
-        x: 20
+        x: 8
         y: 0
-        width: 20
-        height: 20
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DebugTiles8x8_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DebugTiles8x8_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 8
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

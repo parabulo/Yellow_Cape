@@ -4,8 +4,7 @@ using System.Collections.Generic;
 
 //Script básico para cálcular campo de "visão" do jogador
 //A ideia principal desse script será utilizar em conjunto com o campo de visão de inimigos para criar combate mais avançado para certos inimigos.
-public class FieldOfView : MonoBehaviour
-{
+public class FieldOfView : MonoBehaviour{
     public float viewRadius;
 
     public LayerMask obstacleMask;
@@ -15,13 +14,11 @@ public class FieldOfView : MonoBehaviour
     public Tilemap tilemap;
     public Grid grid;
 
-    void Update()
-    {
+    void Update(){
         FindVisibleCells();
     }
 
-    void FindVisibleCells()
-    {
+    void FindVisibleCells(){
         visibleCells.Clear();
 
         int startX = Mathf.FloorToInt(transform.position.x - viewRadius);
@@ -44,21 +41,18 @@ public class FieldOfView : MonoBehaviour
         }
     }
 
-    bool IsWithinViewRadius(Vector3 point)
-    {
+    bool IsWithinViewRadius(Vector3 point){
         return Vector3.Distance(transform.position, point) <= viewRadius;
     }
 
-    bool IsVisible(Vector3 point)
-    {
+    bool IsVisible(Vector3 point){
         Vector3 direction = (point - transform.position).normalized;
         float distance = Vector3.Distance(transform.position, point);
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, obstacleMask);
         return !hit;
     }
 
-    void OnDrawGizmos()
-    {
+    void OnDrawGizmos(){
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, viewRadius);
 
